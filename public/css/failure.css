@@ -1,0 +1,29 @@
+body{
+    font-family: montserrat;
+    text-align: center;
+    padding: 100px;
+}
+.box {
+    padding: 50px;
+    background-image: linear-gradient( 135deg, #82CD47 10%, #F0FF42 100%);
+    border-radius: 30px;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: Montserrat;
+    
+}
+.marks-sheet{
+    height: 100px;
+}
+button{
+    width: 200px;
+}
+.o{
+    font-size: 100px;
+    padding: 0%;
+    color: black;
+    font-family: 'Rampart One', cursive;}
+p{
+    color: #8f8f8f;
+}

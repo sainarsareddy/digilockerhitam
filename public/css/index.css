@@ -1,0 +1,194 @@
+body{
+    font-family: montserrat;
+    text-align: center;
+    
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: Montserrat;
+    
+}
+.marks-sheet{
+    height: 100px;
+}
+.o{
+    font-size: 100px;
+    padding: 0%;
+    color: black;
+    font-family: 'Rampart One', cursive;}
+p{
+    color: #8f8f8f;
+}
+.big-text{
+    font-size: 3rem;
+    font-weight: 900;
+    color: #F0FF42;
+    
+}
+
+
+.section-heading {
+    font-weight: bold;
+    line-height: 1.5;
+}
+.container-fluid {
+    padding: 3% 15% 7%; 
+}
+
+#title{
+    background-image: linear-gradient( 135deg, #82CD47 10%, #F0FF42 100%);
+    text-align: left;
+}
+  
+.iphone{
+    width: 50%;
+    padding: 0%;
+    position: relative;
+    left: 30%;
+    transition: 0.1s all;
+}
+.iphone:hover{
+    transform: translateY(-20px);
+    transition: 1s;
+}
+.navbar-brand{
+    font-family: ubuntu;
+    font-size: 2.5rem;
+    font-weight: bold;
+    padding-left: 2%;
+}
+#navbar-brand{
+    text-decoration: overline;
+    text-decoration-color: #F0FF42;
+    text-underline-offset: 10px;
+}
+.navbar{
+    padding: 0 0 4.5rem;
+}
+#verify{
+    padding-top: 50px;
+    border-radius: 30px;
+    box-shadow: 5px 5px 5px 5px;
+}
+.nav-item{
+    padding: 0 18px;
+    text-decoration: overline;
+    text-decoration-color: #c3cf38;
+}
+.nav-link{
+    font-size: 1.2rem;
+}
+#features{
+    line-height: 2.5;
+    padding: 4% 15%; 
+    background-color: #fff;
+    position: relative; 
+    z-index: 1; 
+}
+.feature-title {
+    font-weight: bold;
+}
+.col-md-4{
+    text-align: center;
+}
+.footerheading{
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 1.5;
+    color: #F0FF42;
+}
+.icon{
+    color: #82CD47;
+    margin-bottom: 1rem;
+}
+.icon #arrow{
+    color: #F0FF42;
+}
+.icon:hover{
+    color: #F0FF42;
+    transform: translateY(-10px);
+   
+    transition: 0.5s;
+}
+
+#testimonials {
+    background-image: linear-gradient( 135deg, #82CD47 10%, #F0FF42 100%);
+    font-family: montserrat;
+    font-weight: bold;
+}
+.testimonial-text {
+    font-weight: bold;
+    line-height: 1.5;
+}
+.testimonial-image {
+    width: 100%;
+    
+}
+#press {
+    background-image: linear-gradient( 135deg, #82CD47 10%, #F0FF42 100%);
+    padding-bottom: 20px;
+}
+.press-logo {
+    width: 15%;
+    padding: 30px;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+.row {
+    margin: 0px;
+}
+.card {
+    border-radius: 5%;
+}
+.card:hover {
+    transform: translateY(-20px);
+    transition: 0.5s;
+}
+
+#pricing {
+    padding: 100px;
+}
+.price-text {
+    font-weight: bold;
+    line-height: 1.5;
+}
+.pricing-column {
+    padding: 3% 2%;
+}
+#cta {
+    background-image: linear-gradient( 135deg, #82CD47 10%, #F0FF42 100%);
+    padding: 0% 10% 5% 10%;
+    color: #fff;
+    margin-top: 0%;
+}
+#s {
+    margin: 50px 5px 0px 5px;
+}
+#footer {
+    background-color: #fff;
+    padding: 20px;
+}
+.fa-brands {
+    padding: 5px;
+}
+.fa-solid{
+    padding: 5px;
+}
+.copy {
+    padding: 10px;
+}
+@media (max-width:1015px){
+    .iphone {
+        position: static;
+        transform: rotate(0);
+        padding: 20px;
+    }
+    .btn {
+        margin: 10px;
+    }
+    #title {
+        text-align: center;
+    }
+    
+}
